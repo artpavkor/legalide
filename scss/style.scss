@@ -11,7 +11,8 @@
 }
 
 body {
-    min-height: 100vh;
+    max-height: 100vh;
+    max-width: 100%;
     line-height: 1.5;
     font-family: $fontFamily;
     overflow-x: hidden;
