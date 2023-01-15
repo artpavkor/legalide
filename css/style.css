@@ -158,6 +158,11 @@
   .container_footer {
     grid-template-columns: repeat(5, auto);
   }
+  header {
+    background-image: url(../img/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 @media (min-width: 700px) {
   .box_client_form {
@@ -180,9 +185,7 @@ body {
 }
 
 .header {
-  background-image: url(../img/cover.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgb(240, 240, 240);
 }
 
 main {
