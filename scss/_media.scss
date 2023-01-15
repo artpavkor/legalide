@@ -66,11 +66,6 @@
     .container_footer{
         grid-template-columns: repeat(5, auto);
     }
-    header {
-        background-image: url(../img/cover.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
 }
 
 @media(min-width: 700px) {

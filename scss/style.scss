@@ -11,16 +11,18 @@
 }
 
 body {
-    max-height: 100vh;
-    max-width: 100%;
+    height: 100vh;
     line-height: 1.5;
     font-family: $fontFamily;
     overflow-x: hidden;
 }
 
-.header {
-    background-color: rgb(240, 240, 240);
+header {
+    background-image: url(../img/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 main {
     max-width: 1200px;
     margin: auto;
@@ -295,13 +297,6 @@ max-width: 60%;
     }
 }
 
-.bg-container {
-    position: relative;
-    padding: 40px 600px;
-    background-color: rgba(37, 43, 66, 1);
-    z-index: -1;
-    bottom: 80px; 
-}
 
 // Container Get In Touch
 
@@ -309,7 +304,7 @@ max-width: 60%;
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 80px;
+    margin: 40px 0;
     h2 {
         font-family: Martel;
         font-size: 40px;
