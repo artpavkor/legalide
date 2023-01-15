@@ -32,10 +32,13 @@
     .container{
         flex-wrap: wrap;
         justify-content: center;
-        gap: 30px;
+        gap: 50px;
     }
     .box_client_icon {
         display: none;
+    }
+    .bg-container {
+        display: flex;
     }
 }
 
