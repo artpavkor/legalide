@@ -132,7 +132,7 @@
     display: none;
   }
   .bg-container {
-    display: flex;
+    display: none;
   }
 }
 @media (min-width: 446px) {
