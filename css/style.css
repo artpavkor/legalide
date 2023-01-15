@@ -123,6 +123,9 @@
   }
 }
 @media (max-width: 920px) {
+  body {
+    position: fixed;
+  }
   .container {
     flex-wrap: wrap;
     justify-content: center;
