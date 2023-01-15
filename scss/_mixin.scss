@@ -1,0 +1,14 @@
+@mixin header_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 120px 0;
+    h2 {
+        font-family: Martel;
+        font-size: 40px;
+        color: $primarytextcolor;
+    }
+    p {
+        color: $secondtextcolor;
+    }
+}
