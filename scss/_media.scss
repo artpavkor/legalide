@@ -29,9 +29,6 @@
 }
 
 @media(max-width:920px){
-    body {
-        overflow-x: hidden;
-    }
     .container{
         flex-wrap: wrap;
         justify-content: center;
@@ -42,6 +39,7 @@
     }
     .bg-container {
         display: none;
+        position: fixed;
     }
 }
 

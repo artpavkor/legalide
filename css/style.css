@@ -123,9 +123,6 @@
   }
 }
 @media (max-width: 920px) {
-  body {
-    overflow-x: hidden;
-  }
   .container {
     flex-wrap: wrap;
     justify-content: center;
@@ -136,6 +133,7 @@
   }
   .bg-container {
     display: none;
+    position: fixed;
   }
 }
 @media (min-width: 446px) {
@@ -182,6 +180,7 @@ body {
 }
 
 .header {
+  background-image: url(../img/cover.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -481,7 +480,7 @@ main {
 
 .bg-container {
   position: relative;
-  padding: 40px 1000px;
+  padding: 40px 600px;
   background-color: rgb(37, 43, 66);
   z-index: -1;
   bottom: 80px;
